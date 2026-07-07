@@ -2,7 +2,7 @@
 
 MATLAB robotics project for modelling, calibrating, and testing the kinematics of the Niryo Ned2 robot arm. The repository contains symbolic derivations, generated MATLAB functions, numerical kinematics exercises, calibration experiments, and supporting course material.
 
-## Author
+## Authors
 
 Work by Fils Elie Boungoueres & Dr. Stephane Ygorra
 
