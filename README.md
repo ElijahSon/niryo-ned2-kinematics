@@ -4,7 +4,7 @@ MATLAB robotics project for modelling, calibrating, and testing the kinematics o
 
 ## Author
 
-Work by Fils Elie Boungoueres.
+Work by Fils Elie Boungoueres & Dr. Stephane Ygorra
 
 ## Recommended Repository Name
 
@@ -141,39 +141,4 @@ ned2_numeric_kinemartics
 
 This project develops a MATLAB-based kinematic study of the Niryo Ned2 robot. It defines the robot's homogeneous transformations, generates direct geometric and Jacobian functions from symbolic expressions, explores inverse kinematics through Paul equation decomposition, and includes calibration scripts using OptiTrack measurement data. Supporting PDFs and UR10 examples are included as course references and complementary robotics exercises.
 
-Project prepared and documented by Fils Elie Boungoueres.
-
-## Suggested GitHub Upload Steps
-
-1. Rename the local project folder to the recommended repository name:
-
-   ```powershell
-   Rename-Item prg_rob niryo-ned2-kinematics-matlab
-   cd niryo-ned2-kinematics-matlab
-   ```
-
-2. Initialize Git:
-
-   ```powershell
-   git init
-   git status
-   ```
-
-3. Add the project files:
-
-   ```powershell
-   git add .
-   git commit -m "Initial commit: add Niryo Ned2 kinematics MATLAB project"
-   ```
-
-4. Create a new empty GitHub repository named `niryo-ned2-kinematics-matlab`.
-
-5. Connect the local repository to GitHub:
-
-   ```powershell
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/niryo-ned2-kinematics-matlab.git
-   git push -u origin main
-   ```
-
-6. After pushing, check the GitHub page and confirm that `README.md`, `.gitignore`, `src/`, `docs/`, and `equations_de_paul/` appear correctly.
+Project prepared and documented by Fils Elie Boungoueres and Dr. Stephane Ygorra at University of Bordeaux/ IMS Lab
