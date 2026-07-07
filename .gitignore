@@ -1,0 +1,59 @@
+# MATLAB autosaves and backups
+*.asv
+*.m~
+*.bak
+*.tmp
+
+# MATLAB compiled/generated binaries
+*.mex*
+*.mlappinstall
+*.mlpkginstall
+*.prj
+
+# MATLAB and Simulink caches
+*.slxc
+slprj/
+sccprj/
+codegen/
+html/
+reports/
+resources/project/
+
+# Simulink generated build folders
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+
+# Build outputs and temporary binaries
+*.o
+*.obj
+*.dll
+*.exe
+*.lib
+*.pdb
+
+# Logs and temporary exports
+*.log
+*.fig
+*.eps
+
+# CoppeliaSim temporary/backup files
+*.ttt.bak
+*.ttt.autosave
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.*
+*.local
+
